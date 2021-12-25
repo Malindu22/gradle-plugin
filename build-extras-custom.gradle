@@ -4,3 +4,4 @@ buildscript {
         implementation 'com.github.anastaciocintra:escpos-coffee:4.1.0';
   }
 }
+
