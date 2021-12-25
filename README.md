@@ -1,5 +1,5 @@
 # custom gradle plugin 
-    Add custom dependency in ionic project
+Add custom dependency in ionic project
 
 #### Supports:
 * Cordova, Ionic, 
