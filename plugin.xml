@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="gradle-cordova-plugin"
+    version="3.0.1">
+
+  <name>Custom gradle plugin </name>
+  <author>Malindu Gimhan</author>
+
+  <description>cordova custom gradle plugin</description>
+
+  <keywords>gradle,,custom,gradle-cordova-plugin</keywords>
+
+  <license>MIT</license>
+
+ <platform name="android">
+    <framework src="com.github.anastaciocintra:escpos-coffee:4.1.0" />
+    <framework src="build-extras-custom.gradle" custom="true" type="gradleReference" />
+ </platform>

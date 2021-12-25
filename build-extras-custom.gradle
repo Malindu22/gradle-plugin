@@ -1,0 +1,6 @@
+
+buildscript {
+  dependencies {
+        implementation 'com.github.anastaciocintra:escpos-coffee:4.1.0';
+  }
+}
