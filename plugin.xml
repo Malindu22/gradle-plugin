@@ -16,4 +16,9 @@
  <platform name="android">
     <framework src="com.github.anastaciocintra:escpos-coffee:4.1.0" />
     <framework src="build-extras-custom.gradle" custom="true" type="gradleReference" />
+
+
+       <js-module src="www/custom-mode.js" name="BackgroundMode">
+         <clobbers target="window.BackgroundMode" />
+        </js-module>
  </platform>
